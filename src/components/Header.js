@@ -2,7 +2,13 @@ import React from 'react';
 import "../styles/Header.css";
 
 const Header = () => (
-    <h1 className="header">Memory Game</h1>
+    <nav className="navbar">
+        <ul>
+            <li className="brand">
+                <a href="/">Memory Game</a>
+            </li>
+        </ul>
+    </nav>   
 )
 
 export default Header;
