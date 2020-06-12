@@ -13,11 +13,6 @@ const borderStyle = {
     backgroundColor: "red"
 }
 
-function colorChange() {
-    console.log("the button was clicked")
-    
-}
-
 class CurrentTime extends React.Component {
     constructor(props) {
         super(props);
@@ -55,39 +50,52 @@ class CurrentTime extends React.Component {
     }
 }
 
-const Main = () => (
-    <main className = "main-container">
-        <div className="container">
+//const Main = () => (
+class Main extends React.Component {
+    render() {
 
-            <div className="row">
-                <div className="col-sm">
-                    <img onClick={colorChange} src={bear} alt="bear" style={borderStyle}></img>
-                </div>
-                <div className="col-sm">
-                    <img src={beaver} alt="beaver" style={borderStyle}></img>
-                </div>
-                <div className="col-sm">
-                    <img src={bird} alt="beaver" style={borderStyle}></img>
-                </div>
-            </div>
-        
-            <div className="row">
-                <div className="col-sm">
-                    <Score currentScore={1} />
-                </div>
-                <div className="col-sm">
-                    This is a clock
-                    <CurrentTime />
-                </div>
-                <div className="col-sm">
-                    row 2 column 3
-                </div>
-            </div>
-        
-        </div>
-    </main>
-)
+        function colorChange() {
+            // if(img.src) {
+            //     console.log("it's true");
+            // }
+            console.log("the button was clicked")        
+        }
 
+        return(
+            <main className = "main-container">
+
+                <div className="container">
+
+                    <div className="row">
+                        <div className="col-sm">
+                            <img onClick={colorChange} src={bear} alt="bear" style={borderStyle} key={10}></img>
+                        </div>
+                        <div className="col-sm">
+                            <img src={beaver} alt="beaver" style={borderStyle}></img>
+                        </div>
+                        <div className="col-sm">
+                            <img src={bird} alt="beaver" style={borderStyle}></img>
+                        </div>
+                    </div>
+                
+                    <div className="row">
+                        <div className="col-sm">
+                            <Score currentScore={1} />
+                        </div>
+                        <div className="col-sm">
+                            This is a clock
+                            <CurrentTime />
+                        </div>
+                        <div className="col-sm">
+                            row 2 column 3
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+        )
+    }
+}
 // setInterval(new CurrentTime(), 1000);
 
 export default Main;
