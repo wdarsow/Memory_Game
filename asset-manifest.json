@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wdarsow/memory_game/static/css/main.d548e43d.chunk.css",
+    "main.js": "/wdarsow/memory_game/static/js/main.075b56a3.chunk.js",
+    "main.js.map": "/wdarsow/memory_game/static/js/main.075b56a3.chunk.js.map",
+    "runtime-main.js": "/wdarsow/memory_game/static/js/runtime-main.6bf99b8f.js",
+    "runtime-main.js.map": "/wdarsow/memory_game/static/js/runtime-main.6bf99b8f.js.map",
+    "static/js/2.f98e5288.chunk.js": "/wdarsow/memory_game/static/js/2.f98e5288.chunk.js",
+    "static/js/2.f98e5288.chunk.js.map": "/wdarsow/memory_game/static/js/2.f98e5288.chunk.js.map",
+    "index.html": "/wdarsow/memory_game/index.html",
+    "precache-manifest.b45dc621084406950b0e29bceaef0f62.js": "/wdarsow/memory_game/precache-manifest.b45dc621084406950b0e29bceaef0f62.js",
+    "service-worker.js": "/wdarsow/memory_game/service-worker.js",
+    "static/css/main.d548e43d.chunk.css.map": "/wdarsow/memory_game/static/css/main.d548e43d.chunk.css.map",
+    "static/js/2.f98e5288.chunk.js.LICENSE.txt": "/wdarsow/memory_game/static/js/2.f98e5288.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bf99b8f.js",
+    "static/js/2.f98e5288.chunk.js",
+    "static/css/main.d548e43d.chunk.css",
+    "static/js/main.075b56a3.chunk.js"
+  ]
+}
